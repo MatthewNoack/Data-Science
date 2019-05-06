@@ -11,9 +11,6 @@ df.columns = ['CRIM', 'ZN', 'INDUS', 'CHAS',
 df.head()
 
 sns.set(style='whitegrid', context='notebook')
-#sns.pairplot(df[cols], size=2.5);
-#plt.show()
-#pg 289
 #y = a0 + a1*xLSTAR + a2xRM
 #split dataset into training set
 #put two differnt values into X, same function call
